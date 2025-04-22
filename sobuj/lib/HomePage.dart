@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sobuj/Contenar_Column_Row.dart';
+// import 'package:sobuj/Contenar_Column_Row.dart';
+import 'package:sobuj/button_widget.dart';
+
 
 
 class HomePage extends StatefulWidget {
@@ -17,7 +19,7 @@ class _HomePageState extends State<HomePage> {
         title: Text("Sobuj App",style: TextStyle(fontWeight:FontWeight.w600)),
         backgroundColor: Colors.blueGrey,
       ),
-      body: ColamRow(),
+      body:ButtonWidget(),
     );
   }
 }
