@@ -11,23 +11,737 @@ class _ColamRowState extends State<ColamRow> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Container(
-        height: 160,
-        width: 300,
-        child: Center(child: Text("Room 1",style: TextStyle(fontSize: 60),)),
-        decoration: BoxDecoration(
-          //  color:const Color.fromARGB(255, 255, 255, 255),
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: const Color.fromARGB(255, 229, 119, 119), width: 2),
-          image: DecorationImage(
-            image: NetworkImage(
-              "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630"
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
             ),
           ),
-          boxShadow: [
-            BoxShadow(color: Color.fromARGB(255, 0, 0, 0), blurRadius: 10),
-          ],
+
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+
+
+Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+
+
+
+Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+SizedBox(
+height: 50,
+),
+
+
+          Container(
+            height: 100,
+            width: MediaQuery.of(context).size.width,
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              
+              
+              
+              Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+              
+              
+
+
+
+
+Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+
+
+
+
+Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 80,
+              width: 180,
+              child: Center(
+                child: Text("Room 1", style: TextStyle(fontSize: 60)),
+              ),
+              decoration: BoxDecoration(
+                //  color:const Color.fromARGB(255, 255, 255, 255),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: const Color.fromARGB(255, 229, 119, 119),
+                  width: 2,
+                ),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                  ),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Color.fromARGB(255, 0, 0, 0),
+                    blurRadius: 10,
+                  ),
+                ],
+              ),
+            ),
+          ),
+
+
+
+              Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+              
+              
+              Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+              
+
+
+
+Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+              
+              
+              Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+
+
+
+
+
+
+
+
+
+Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+              
+              
+              Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+
+
+
+
+
+
+                  Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+              
+              
+              Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 180,
+                    child: Center(
+                      child: Text("Room 1", style: TextStyle(fontSize: 60)),
+                    ),
+                    decoration: BoxDecoration(
+                      //  color:const Color.fromARGB(255, 255, 255, 255),
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: const Color.fromARGB(255, 229, 119, 119),
+                        width: 2,
+                      ),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+                        ),
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color.fromARGB(255, 0, 0, 0),
+                          blurRadius: 10,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+
+
+
+
+
+              
+              ],
+            ),
+          ),
+        SizedBox(
+          height: 50,
         ),
+        ],
       ),
     );
 
