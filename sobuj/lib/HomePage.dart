@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:sobuj/List_vew.dart';
 // import 'package:sobuj/Contenar_Column_Row.dart';
-import 'package:sobuj/button_widget.dart';
+// import 'package:sobuj/button_widget.dart';
 
 
 
@@ -19,7 +20,7 @@ class _HomePageState extends State<HomePage> {
         title: Text("Sobuj App",style: TextStyle(fontWeight:FontWeight.w600)),
         backgroundColor: Colors.blueGrey,
       ),
-      body:ButtonWidget(),
+      body:ListVew(),
     );
   }
 }
